@@ -3,9 +3,9 @@
 This project implements a hierarchical deep reinforcement learning framework for dynamic stock portfolio allocation.  
 The system combines macroeconomic, fundamental and technical information into a three-level decision process:
 
-1. **Macroeconomic allocation agent** — allocates capital across sectors.
-2. **Fundamental stock selection agent** — allocates capital among companies within sector constraints.
-3. **Technical overlay agent** — applies bounded technical tilts to the macro-fundamental target portfolio.
+1. **Macroeconomic allocation agent** - allocates capital across sectors.
+2. **Fundamental stock selection agent** - allocates capital among companies within sector constraints.
+3. **Technical overlay agent** - applies bounded technical tilts to the macro-fundamental target portfolio.
 
 The project is designed for research and experimentation in quantitative finance, systematic portfolio construction and deep reinforcement learning.
 
