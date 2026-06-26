@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+mlstack/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Outputs / models / logs
+outputs/
+runs/
+logs/
+*.log
+
+# Trained models / checkpoints
+*.zip
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# System
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
