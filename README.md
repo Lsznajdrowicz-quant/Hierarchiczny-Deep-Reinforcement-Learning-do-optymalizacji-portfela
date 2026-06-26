@@ -87,7 +87,7 @@ For validation and test, the code can use historical context from the previous s
 
 ### 3. Hierarchical Agents
 
-#### Agent 1 — Macroeconomic Allocation
+#### Agent 1 - Macroeconomic Allocation
 
 The macro agent receives a lookback window of macroeconomic variables and outputs continuous sector logits. These logits are converted into long-only sector weights using softmax and sector weight constraints.
 
@@ -95,7 +95,7 @@ The macro agent receives a lookback window of macroeconomic variables and output
 Macro window → Autoencoder latent → LSTM → Policy/Critic → Sector weights
 ```
 
-#### Agent 2 — Fundamental Stock Selection
+#### Agent 2 - Fundamental Stock Selection
 
 The fundamental agent receives company fundamentals and sector weights produced by the macro agent. It ranks companies within sectors and converts stock logits into sector-constrained stock weights using masked softmax.
 
@@ -103,7 +103,7 @@ The fundamental agent receives company fundamentals and sector weights produced 
 Fundamental factors + Sector weights → Autoencoder + per-stock FFNN → Stock weights
 ```
 
-#### Agent 3 — Technical Overlay
+#### Agent 3 - Technical Overlay
 
 The technical agent receives technical time series, macro-fundamental target weights, current weights and previous tilts. It does not build a new portfolio from scratch. Instead, it applies bounded multiplicative tilts to the existing macro-fundamental portfolio.
 
