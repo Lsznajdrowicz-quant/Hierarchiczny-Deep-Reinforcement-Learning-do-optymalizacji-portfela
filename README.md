@@ -117,10 +117,10 @@ Technical time series + Portfolio context → CNN-LSTM → Bounded tilts → Fin
 
 The project supports the following algorithms:
 
-- **TD3** — deterministic off-policy actor-critic with twin critics and delayed policy updates.
-- **SAC** — entropy-regularized off-policy actor-critic.
-- **TQC** — distributional actor-critic with truncated quantiles.
-- **Recurrent PPO** — on-policy recurrent policy with LSTM state.
+- **TD3** - deterministic off-policy actor-critic with twin critics and delayed policy updates.
+- **SAC** - entropy-regularized off-policy actor-critic.
+- **TQC** - distributional actor-critic with truncated quantiles.
+- **Recurrent PPO** - on-policy recurrent policy with LSTM state.
 
 The selected algorithm is controlled by the `--algo` argument.
 
